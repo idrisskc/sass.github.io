@@ -1,0 +1,237 @@
+/**nav-bar-color**/
+/**nav-bar-height**/
+/**auto-height**/
+/**display-block**/
+/**display-inline**/
+/**display-flex**/
+/**background-image**/
+* {
+  margin: 0;
+}
+
+.bg01 {
+  background-color: rgb(33, 33, 34);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: fixed;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+li {
+  list-style-type: none;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(39, 230, 25, 0);
+}
+
+.p-li {
+  background-color: rgba(193, 28, 28, 0);
+  padding-left: 20px;
+}
+
+#name {
+  padding-left: 5px;
+  padding-top: 12px;
+  color: white;
+}
+
+#pos {
+  margin-left: -10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 11px;
+  color: white;
+}
+
+i {
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  position: relative;
+  justify-content: flex-end, space-between;
+  margin-left: 300px;
+  width: auto;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.flex-container > li {
+  width: 100px;
+  margin-right: 0px;
+  text-align: center;
+  position: relative;
+  margin-right: 3px;
+  padding-top: 8px;
+  color: white;
+}
+
+#button {
+  width: 100px;
+  font-size: medium;
+  font-weight: 600;
+  justify-content: center;
+  color: white;
+  border: 1px solid white;
+  font-weight: bolder;
+}
+
+#button1 {
+  padding-right: -4px;
+  width: 50px;
+}
+
+.bg02 {
+  background-image: url(../img/hero-illustration.png);
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 0);
+  height: 700px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+.bg02 .btn-couple2 {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.bg02 .btn-couple2 #text-r {
+  text-align: right;
+  color: white;
+}
+
+#p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#p2 {
+  text-align: center;
+}
+
+.div {
+  margin-bottom: 50px;
+}
+
+#p1 {
+  margin-left: -4px;
+}
+
+.btn-couple {
+  display: flex;
+  align-items: center;
+}
+
+.j-c {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.btn-couple2 > div {
+  width: auto;
+  margin: 10px;
+  text-align: left;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+#eframe {
+  justify-content: center;
+}
+
+#btn1 {
+  margin-left: 60px;
+  padding: 3% 7% 3% 7%;
+  background-image: linear-gradient(45deg, rgb(245, 130, 77), rgb(244, 44, 107), rgb(221, 9, 69));
+  color: white;
+  font-weight: bolder;
+}
+#btn1:hover {
+  background-image: linear-gradient(45deg, rgb(221, 9, 69), rgb(244, 44, 107), rgb(245, 130, 77));
+}
+
+#btn2 {
+  border: 1px solid white;
+  padding: 3% 7% 3% 7%;
+  margin-left: 8%;
+  color: white;
+  font-weight: bolder;
+}
+#btn2:hover {
+  border-width: 2px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: auto;
+  margin-left: 1em;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 22px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover {
+  border-bottom: 3px solid rgb(229, 54, 54);
+}
+
+.content {
+  padding-top: 22px;
+  color: white;
+  width: auto;
+}
+
+.content::after {
+  content: "Bonjour Monde!";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+  -webkit-animation: slider-w 5s infinite;
+          animation: slider-w 5s infinite;
+}
+
+@-webkit-keyframes slider-w {
+  0% {
+    content: "teams";
+  }
+  50% {
+    content: "products";
+  }
+  100% {
+    content: "workflows";
+  }
+}
+
+@keyframes slider-w {
+  0% {
+    content: "teams";
+  }
+  50% {
+    content: "products";
+  }
+  100% {
+    content: "workflows";
+  }
+}/*# sourceMappingURL=one.css.map */

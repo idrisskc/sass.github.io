@@ -1,0 +1,28 @@
+// defined a variable
+//  1-nav-bar-variables
+$n-b-c: rgb(33, 33, 34); /**nav-bar-color**/
+$n-b-h:60px;/**nav-bar-height**/
+
+//  2-footer-variables
+$a-h:700px; /**auto-height**/
+
+//  3-display-variables
+$d-b:block; /**display-block**/
+$d-e:inline;/**display-inline**/
+$d-f:flex; /**display-flex**/
+
+//  4-middle-page-variables
+$bg-i: url(../img/hero-illustration.png);/**background-image**/
+
+//  5-flex-direction(display-direction)
+$r:row;
+$c:column;
+
+//  6-justify-content
+$c:center;
+$f-s:flex-start;
+$f-e:flex-end;
+$s-a:space-around;
+$s-b:space-between
+
+// 7-align-items
